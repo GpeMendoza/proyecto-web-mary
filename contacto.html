@@ -1,0 +1,67 @@
+<html>
+<head>
+    
+    <title>Contacto</title>
+    <script src="js/javacript.js"></script>
+    <link rel="stylesheet" href ="css/estilos.css"></link>
+
+</head>
+<body>
+    
+    <ul>
+        <li><a href= "index.html">Inicio</a></li>
+        <li><a href= "galeria.html">Galeria</a></li>
+        <li><a href= "contacto.html">Contacto</a></li>
+        <li><a href= "Acerca de.html">Acerca de</a></li>
+        <li><a href= "Blog.html">Blog</a></li>
+        </ul>
+        pagina de Contacto
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Nombre </label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Apellidos</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Pais</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country" >
+                <option value="SELECCIONA UNA OPCION">SELECCIONA UNA OPCION</option>
+                  <option value="MEXICO">MEXICO</option>
+                  <option value="CANADA">CANADA</option>
+                  <option value="EUROPA">EUROPA</option>
+                  <option value="USA">USA</option>
+                  <option value="FRANCIA">FRANCIA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Mensaje</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            </form>
+          </div>
+</body>
+</html>
